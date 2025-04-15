@@ -38,6 +38,8 @@ class MyApp extends StatelessWidget {
                 return HomePage();
               }
             }
+
+            return Text("Try again");
           }
       ),
     );
